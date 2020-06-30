@@ -8,7 +8,7 @@ The simplest possible way to get started with React. Using [Parcel](https://parc
 1. `npm start` to build everything, watch for changes, and run the site
 1. Go to http://localhost:1234 to see your site
 
-Any changes to HTML, CSS, or JS will automatically show up without refreshing. Build output is served from `/dev-dist` in case you want to see what it looks like.
+Any changes to HTML, CSS, or JS will automatically show up without refreshing.
 
 ### Build for deployment
 
@@ -26,4 +26,4 @@ The starting point is `src/index.html`. See how it refers to JS and SCSS files b
 
 Because Parcel is doing all the work, the only configuration needed here is the definition of `build` and `start` in `package.json`.
 
-Note that this is Parcel 1. [Parcel 2](https://medium.com/@devongovett/parcel-2-0-0-alpha-1-is-here-8b160c6e3f7e) is being worked on but it's not out yet.
+Note that this is Parcel 2, which is still in beta. Documentation [here](https://v2.parceljs.org/).
